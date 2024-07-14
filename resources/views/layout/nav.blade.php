@@ -1,5 +1,5 @@
 {{-- menu khi chưa đăng nhập --}}
-{{-- <div class="container-fluid d-flex justify-content-between align-items-center border-bottom">
+<div class="container-fluid d-flex justify-content-between align-items-center border-bottom">
     <div class="d-flex justify-content-between align-items-center">
         <img style="max-width: 150px; max-height: 100px;"  src="https://fullstack.edu.vn/assets/f8-icon-lV2rGpF0.png" alt="img">
         <p class="fw-bold ms-1">Luôn hướng về tương lai</p>
@@ -12,13 +12,14 @@
     </div>
 
     <div class="d-flex justify-content-between align-items-center">
-        <a href=""><button class="btn btn-light">Đăng ký</button></a>
+        <a href="/register"><button style="background-color: transparent; margin-right:15px" class="btn btn-light">Đăng ký</button></a>
         <a href=""><button class="btn btn-secondary">Đăng nhập</button></a>
     </div>
-</div> --}}
+    
+</div>
   {{-- kết thúc --}}
 {{-- menu khi đã đăng nhập --}}
-<style>
+{{-- <style>
     .dropdown-menu-custom {
         position: absolute;
         z-index: 1000;
@@ -127,5 +128,5 @@
             
         </div>
     </div>   
-</div>
+</div> --}}
   {{-- kết thúc --}}
